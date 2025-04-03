@@ -1,0 +1,47 @@
+<!-- res/layout/activity_fight_monsters.xml -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center_horizontal"
+        android:layout_marginBottom="12dp">
+
+        <Button
+            android:id="@+id/ReturnButton"
+            android:text="Palaa"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#673AB7"
+            android:textColor="#FFFFFF"/>
+
+        <Button
+            android:id="@+id/ShowMonsterFragmentButton"
+            android:text="Näytä hirviö"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="12dp"
+            android:backgroundTint="#673AB7"
+            android:textColor="#FFFFFF"/>
+
+        <Button
+            android:id="@+id/BossFightFragmentButton"
+            android:text="Päävihollinen"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="12dp"
+            android:enabled="false"/>
+    </LinearLayout>
+
+    <FrameLayout
+        android:id="@+id/FightMonstersFrame"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:background="#F5F5F5"/>
+</LinearLayout>

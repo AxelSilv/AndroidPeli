@@ -1,0 +1,40 @@
+<!-- fragment_show_monster.xml -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="16dp"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/MonsterImage"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:src="@drawable/vampire" />
+
+    <TextView
+        android:id="@+id/MonsterNameText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Örkki"
+        android:textSize="24sp"
+        android:textColor="#388E3C"
+        android:layout_marginTop="8dp" />
+
+    <TextView
+        android:id="@+id/MonsterLifeText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Elämä: 23/23"
+        android:textSize="20sp"
+        android:textColor="#D32F2F"
+        android:layout_marginBottom="12dp" />
+
+    <Button
+        android:id="@+id/AttackMonsterButton"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:text="Hyökkää"
+        android:backgroundTint="#D32F2F"
+        android:textColor="#FFFFFF"/>
+</LinearLayout>
