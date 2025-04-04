@@ -1,4 +1,4 @@
-package org.axel.androidgame.fragments;
+package androidgame;
 
 public class Player {
     private int damage;

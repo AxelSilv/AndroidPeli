@@ -13,7 +13,7 @@
         android:layout_marginBottom="12dp">
 
         <Button
-            android:id="@+id/ReturnButton"
+            android:id="@+id/ReturnFromFightButton"
             android:text="Palaa"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"

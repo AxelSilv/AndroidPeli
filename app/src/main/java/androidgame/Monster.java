@@ -1,4 +1,4 @@
-package org.axel.androidgame.fragments;
+package androidgame;
 
 public abstract class Monster {
     private String name;

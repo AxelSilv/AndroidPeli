@@ -1,4 +1,4 @@
-package org.axel.androidgame.fragments;
+package androidgame.fragments;
 
 import android.os.Bundle;
 
@@ -14,6 +14,10 @@ import android.widget.ImageView;
 import android.widget.TextView;
 
 import org.axel.androidgame.R;
+
+import androidgame.GameManager;
+import androidgame.Monster;
+import androidgame.Player;
 
 
 public class BossFightFragment extends Fragment {

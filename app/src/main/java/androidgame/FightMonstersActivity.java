@@ -1,4 +1,4 @@
-package org.axel.androidgame.fragments;
+package androidgame;
 
 import android.os.Bundle;
 import android.widget.Button;
@@ -8,6 +8,8 @@ import androidx.fragment.app.Fragment;
 import androidx.fragment.app.FragmentTransaction;
 
 import org.axel.androidgame.R;
+import androidgame.fragments.BossFightFragment;
+import androidgame.fragments.ShowMonsterFragment;
 
 public class FightMonstersActivity extends AppCompatActivity {
 
@@ -19,7 +21,7 @@ public class FightMonstersActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_fight_monsters);
 
-        Button returnButton = findViewById(R.id.ReturnButton);
+        Button returnButton = findViewById(R.id.ReturnFromFightButton);
         showMonsterButton = findViewById(R.id.ShowMonsterFragmentButton);
         bossFightButton = findViewById(R.id.BossFightFragmentButton);
 

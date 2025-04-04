@@ -1,4 +1,4 @@
-package org.axel.androidgame.fragments;
+package androidgame;
 
 import java.util.Random;
 
